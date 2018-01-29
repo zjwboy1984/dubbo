@@ -16,5 +16,5 @@
     <!-- 声明需要暴露的服务接口 -->
     <dubbo:service interface="com.test.TestService" ref="testService" timeout="10000"/>
     <!-- 和本地 bean 一样实现服务 -->
-    <bean id="testService" class="com.test.TestServiceImpl"/>
+    <bean id="testService" class="com.test.impl.TestServiceImpl"/>
 </beans>
